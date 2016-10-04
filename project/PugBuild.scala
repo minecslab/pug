@@ -33,7 +33,7 @@ object BuildSettings {
   lazy val versionSettings = Seq(
     organization := "com.mine",
     rev := {
-      "0"
+      ""
     },
     version := {
       "1.0" + rev.value
